@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TextBox</name>
+   <tag>elements</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a26b5ba9-ccd2-408a-93dc-2a22893bd0a2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d0087c9-5e2d-475e-a804-d0047e90c313</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>834be04c-12ee-4396-89fa-e1fde50f8576</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a83431bd-4e26-410a-8eab-a0db6c569d76</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e1b8ec1f-1f20-4140-9238-ae4c8762b74f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Joe Navi'</defaultValue>
+      <description></description>
+      <id>7d0087c9-5e2d-475e-a804-d0047e90c313</id>
+      <masked>false</masked>
+      <name>fullName</name>
+   </variable>
+   <variable>
+      <defaultValue>'joenavi@example.com'</defaultValue>
+      <description></description>
+      <id>834be04c-12ee-4396-89fa-e1fde50f8576</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'London Baker Street No 100'</defaultValue>
+      <description></description>
+      <id>a83431bd-4e26-410a-8eab-a0db6c569d76</id>
+      <masked>false</masked>
+      <name>currentAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'No permanent address'</defaultValue>
+      <description></description>
+      <id>e1b8ec1f-1f20-4140-9238-ae4c8762b74f</id>
+      <masked>false</masked>
+      <name>permanentAddress</name>
+   </variable>
+</TestCaseEntity>

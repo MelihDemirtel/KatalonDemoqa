@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Elements</name>
+   <tag>elements</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0d90971e-6100-4406-9ed9-23e03475ca46</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>07083d8a-816f-4a28-b9c5-a50fc81fe267</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demoqa.com/'</defaultValue>
+      <description></description>
+      <id>07083d8a-816f-4a28-b9c5-a50fc81fe267</id>
+      <masked>false</masked>
+      <name>baseUrl</name>
+   </variable>
+</TestCaseEntity>
