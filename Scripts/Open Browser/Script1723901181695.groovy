@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.navigateToUrl(baseUrl)
-
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/div_Elements'))
+WebUI.maximizeWindow()
 
