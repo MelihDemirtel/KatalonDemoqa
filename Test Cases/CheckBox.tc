@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CheckBox</name>
+   <tag>elements</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bc719cfd-5d05-4b28-b209-125dacc6efc7</testCaseGuid>
+</TestCaseEntity>
