@@ -69,6 +69,49 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>d1fc322f-c81f-4487-8f12-bac3684cab66</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WebTables</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9952c787-43d4-4cb6-a804-f5e912bb08fb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ba3a6bf0-33c3-4a35-a04b-99bf4c0a24ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>031ac3e8-54b2-4549-a9d9-f9aec29ace9f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a338630b-09ae-4e2d-a67e-821262cbdbb5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>def7495b-2c39-4f0c-bc6c-369c8245fd43</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>01df37af-ca3b-45fe-a919-507275774926</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>d91afa67-73b9-439b-b8e3-161c0822ce06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
