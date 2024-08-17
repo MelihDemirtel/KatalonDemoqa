@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Elements Test Suite" time="7.811" tests="3" failures="0" errors="0">
+   <testsuite name="Elements Test Suite" tests="3" failures="0" errors="0" time="7.811" skipped="0" timestamp="17-08-2024T16:25:37" hostname="melih - MelihPC" id="">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\melih\\git\\KatalonDemoqa\\Reports\\20240817_162533\\Elements Test Suite\\20240817_162534"/>
+         <property name="logFiles" value="C:\\Users\\melih\\git\\KatalonDemoqa\\Reports\\20240817_162533\\Elements Test Suite\\20240817_162534\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="melih - MelihPC"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.14"/>
+         <property name="sessionId" value="223534350cddeca649c6a273d962e4c8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TextBox" time="4.191" classname="Test Cases/TextBox" status="PASSED">
+         <system-out><![CDATA[17-08-2024T16:25:37 - [TEST_CASE][PASSED] - Test Cases/TextBox: Test Cases/TextBox
+
+17-08-2024T16:25:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Elements"), ["baseUrl":"https://demoqa.com/"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Elements' successfully
+
+17-08-2024T16:25:37 - [TEST_CASE][PASSED] - Test Cases/Elements: Test Cases/Elements
+
+17-08-2024T16:25:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-08-2024T16:25:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-08-2024T16:25:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-08-2024T16:25:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-08-2024T16:25:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-08-2024T16:25:38 - [MESSAGE][PASSED] - Current window maximized
+
+17-08-2024T16:25:38 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://demoqa.com/' successfully
+
+17-08-2024T16:25:40 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+17-08-2024T16:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/div_Elements")): Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+17-08-2024T16:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+17-08-2024T16:25:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Elements' successfully
+
+17-08-2024T16:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TextBox/li_Text Box")): Object: 'Object Repository/Page_TextBox/li_Text Box' is clicked on
+
+17-08-2024T16:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TextBox/li_Text Box' is clicked on
+
+17-08-2024T16:25:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_TextBox/input_Full Name_userName"), fullName): Text 'Joe Navi' is set on object 'Object Repository/Page_TextBox/input_Full Name_userName'
+
+17-08-2024T16:25:40 - [MESSAGE][PASSED] - Text 'Joe Navi' is set on object 'Object Repository/Page_TextBox/input_Full Name_userName'
+
+17-08-2024T16:25:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_TextBox/input_Email_userEmail"), email): Text 'joenavi@example.com' is set on object 'Object Repository/Page_TextBox/input_Email_userEmail'
+
+17-08-2024T16:25:41 - [MESSAGE][PASSED] - Text 'joenavi@example.com' is set on object 'Object Repository/Page_TextBox/input_Email_userEmail'
+
+17-08-2024T16:25:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_TextBox/textarea_Current Address_currentAddress"), currentAddress): Text 'London Baker Street No 100' is set on object 'Object Repository/Page_TextBox/textarea_Current Address_currentAddress'
+
+17-08-2024T16:25:41 - [MESSAGE][PASSED] - Text 'London Baker Street No 100' is set on object 'Object Repository/Page_TextBox/textarea_Current Address_currentAddress'
+
+17-08-2024T16:25:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_TextBox/textarea_Permanent Address_permanentAddress"), permanentAddress): Text 'No permanent address' is set on object 'Object Repository/Page_TextBox/textarea_Permanent Address_permanentAddress'
+
+17-08-2024T16:25:41 - [MESSAGE][PASSED] - Text 'No permanent address' is set on object 'Object Repository/Page_TextBox/textarea_Permanent Address_permanentAddress'
+
+17-08-2024T16:25:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_TextBox/button_Submit")): Object: 'Object Repository/Page_TextBox/button_Submit' is clicked on
+
+17-08-2024T16:25:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TextBox/button_Submit' is clicked on
+
+17-08-2024T16:25:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_TextBox/div_Submit_result")): Object 'Object Repository/Page_TextBox/div_Submit_result' is visible
+
+17-08-2024T16:25:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TextBox/div_Submit_result' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CheckBox" time="3.38" classname="Test Cases/CheckBox" status="PASSED">
+         <system-out><![CDATA[17-08-2024T16:25:41 - [TEST_CASE][PASSED] - Test Cases/CheckBox: Test Cases/CheckBox
+
+17-08-2024T16:25:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Elements"), ["baseUrl":"https://demoqa.com/"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Elements' successfully
+
+17-08-2024T16:25:41 - [TEST_CASE][PASSED] - Test Cases/Elements: Test Cases/Elements
+
+17-08-2024T16:25:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-08-2024T16:25:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+17-08-2024T16:25:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-08-2024T16:25:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-08-2024T16:25:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-08-2024T16:25:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-08-2024T16:25:42 - [MESSAGE][PASSED] - Current window maximized
+
+17-08-2024T16:25:42 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://demoqa.com/' successfully
+
+17-08-2024T16:25:43 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+17-08-2024T16:25:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/div_Elements")): Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/div_Elements' is clicked on
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Elements' successfully
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CheckBox/span_Check Box")): Object: 'Object Repository/Page_CheckBox/span_Check Box' is clicked on
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckBox/span_Check Box' is clicked on
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CheckBox/span_Home_checkbox"), 2): Object 'Object Repository/Page_CheckBox/span_Home_checkbox' is visible
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckBox/span_Home_checkbox' is visible
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_CheckBox/span_Home_checkbox")): Object 'Object Repository/Page_CheckBox/span_Home_checkbox' is visible
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckBox/span_Home_checkbox' is visible
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_CheckBox/span_Home_checkbox")): Object 'Object Repository/Page_CheckBox/span_Home_checkbox' is clickable
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckBox/span_Home_checkbox' is clickable
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CheckBox/span_Home_checkbox")): Object: 'Object Repository/Page_CheckBox/span_Home_checkbox' is clicked on
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckBox/span_Home_checkbox' is clicked on
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CheckBox/text_Result"), 2): Object 'Object Repository/Page_CheckBox/text_Result' is visible
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckBox/text_Result' is visible
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CheckBox/text_Result")): Object 'Object Repository/Page_CheckBox/text_Result' is visible
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckBox/text_Result' is visible
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_CheckBox/span_Home_checkbox")): Object: 'Object Repository/Page_CheckBox/span_Home_checkbox' is clicked on
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckBox/span_Home_checkbox' is clicked on
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_CheckBox/text_Result"), 2): Web element with id: 'Object Repository/Page_CheckBox/text_Result' located by 'By.xpath: //div[@id='result']' is not present after '2' second(s)
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_CheckBox/text_Result' located by 'By.xpath: //div[@id='result']' is not present after '2' second(s)
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_CheckBox/button_Toggle")): Object: 'Object Repository/Page_CheckBox/button_Toggle' is clicked on
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckBox/button_Toggle' is clicked on
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CheckBox/span_Desktop"), 2): Object 'Object Repository/Page_CheckBox/span_Desktop' is visible
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckBox/span_Desktop' is visible
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CheckBox/span_Desktop")): Object 'Object Repository/Page_CheckBox/span_Desktop' is visible
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckBox/span_Desktop' is visible
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CheckBox/span_Documents")): Object 'Object Repository/Page_CheckBox/span_Documents' is visible
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckBox/span_Documents' is visible
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CheckBox/span_Downloads")): Object 'Object Repository/Page_CheckBox/span_Downloads' is visible
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckBox/span_Downloads' is visible
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_CheckBox/button_CollapseAll")): Object: 'Object Repository/Page_CheckBox/button_CollapseAll' is clicked on
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckBox/button_CollapseAll' is clicked on
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_CheckBox/span_Desktop"), 2): Web element with id: 'Object Repository/Page_CheckBox/span_Desktop' located by 'By.xpath: //span[contains(text(),'Desktop')]' is not present after '2' second(s)
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_CheckBox/span_Desktop' located by 'By.xpath: //span[contains(text(),'Desktop')]' is not present after '2' second(s)
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_CheckBox/span_Documents"), 2): Web element with id: 'Object Repository/Page_CheckBox/span_Documents' located by 'By.xpath: //span[contains(text(),'Documents')]' is not present after '2' second(s)
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_CheckBox/span_Documents' located by 'By.xpath: //span[contains(text(),'Documents')]' is not present after '2' second(s)
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_CheckBox/span_Downloads"), 2): Web element with id: 'Object Repository/Page_CheckBox/span_Downloads' located by 'By.xpath: //span[contains(text(),'Downloads')]' is not present after '2' second(s)
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_CheckBox/span_Downloads' located by 'By.xpath: //span[contains(text(),'Downloads')]' is not present after '2' second(s)
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_CheckBox/button_ExpandAll")): Object: 'Object Repository/Page_CheckBox/button_ExpandAll' is clicked on
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckBox/button_ExpandAll' is clicked on
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CheckBox/span_Desktop"), 2): Object 'Object Repository/Page_CheckBox/span_Desktop' is visible
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckBox/span_Desktop' is visible
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CheckBox/span_Desktop")): Object 'Object Repository/Page_CheckBox/span_Desktop' is visible
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckBox/span_Desktop' is visible
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CheckBox/span_Documents")): Object 'Object Repository/Page_CheckBox/span_Documents' is visible
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckBox/span_Documents' is visible
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CheckBox/span_Downloads"), STOP_ON_FAILURE): Object 'Object Repository/Page_CheckBox/span_Downloads' is visible
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CheckBox/span_Downloads' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Close Browser" time="0.13" classname="Test Cases/Close Browser" status="PASSED">
+         <system-out><![CDATA[17-08-2024T16:25:44 - [TEST_CASE][PASSED] - Test Cases/Close Browser: Test Cases/Close Browser
+
+17-08-2024T16:25:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-08-2024T16:25:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-08-2024T16:25:37 - [TEST_SUITE][PASSED] - Elements Test Suite: Test Cases/Close Browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

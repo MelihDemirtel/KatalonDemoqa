@@ -50,7 +50,26 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7128d347-2483-4944-b179-083c65f72ca2</guid>
+      <guid>90632e2d-80bb-43dc-8132-0e416215cde6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RadioButton</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0c1c8039-ca48-4810-912c-98d914e87482</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>134cf5e0-287d-4c0a-b40b-5106ec8c819e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d91afa67-73b9-439b-b8e3-161c0822ce06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Close Browser</testCaseId>

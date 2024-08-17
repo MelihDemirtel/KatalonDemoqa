@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RadioButton</name>
+   <tag>elements</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f81ce82d-d448-42bd-a6c5-39fd66991c42</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c1c8039-ca48-4810-912c-98d914e87482</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>134cf5e0-287d-4c0a-b40b-5106ec8c819e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Yes'</defaultValue>
+      <description></description>
+      <id>0c1c8039-ca48-4810-912c-98d914e87482</id>
+      <masked>false</masked>
+      <name>selectedTextYes</name>
+   </variable>
+   <variable>
+      <defaultValue>'Impressive'</defaultValue>
+      <description></description>
+      <id>134cf5e0-287d-4c0a-b40b-5106ec8c819e</id>
+      <masked>false</masked>
+      <name>selectedTextImpressive</name>
+   </variable>
+</TestCaseEntity>

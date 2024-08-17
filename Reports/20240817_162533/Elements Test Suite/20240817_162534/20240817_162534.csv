@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Elements Test Suite,Chrome 127.0.0.0,,,17-08-2024 16:25:37,17-08-2024 16:25:44,"7,811s",PASSED
+,,,,,,,
+Test Cases/TextBox,Chrome 127.0.0.0,,elements,17-08-2024 16:25:37,17-08-2024 16:25:41,"4,191s",PASSED
+"callTestCase(findTestCase(""Elements""), [""baseUrl"":""https://demoqa.com/""], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,17-08-2024 16:25:37,17-08-2024 16:25:40,"3,275s",PASSED
+"click(findTestObject(""Object Repository/Page_TextBox/li_Text Box""))",Chrome 127.0.0.0,,,17-08-2024 16:25:40,17-08-2024 16:25:40,"0,068s",PASSED
+"setText(findTestObject(""Page_TextBox/input_Full Name_userName""), fullName)",Chrome 127.0.0.0,,,17-08-2024 16:25:40,17-08-2024 16:25:40,"0,148s",PASSED
+"setText(findTestObject(""Page_TextBox/input_Email_userEmail""), email)",Chrome 127.0.0.0,,,17-08-2024 16:25:40,17-08-2024 16:25:41,"0,133s",PASSED
+"setText(findTestObject(""Page_TextBox/textarea_Current Address_currentAddress""), currentAddress)",Chrome 127.0.0.0,,,17-08-2024 16:25:41,17-08-2024 16:25:41,"0,144s",PASSED
+"setText(findTestObject(""Page_TextBox/textarea_Permanent Address_permanentAddress""), permanentAddress)",Chrome 127.0.0.0,,,17-08-2024 16:25:41,17-08-2024 16:25:41,"0,119s",PASSED
+"click(findTestObject(""Page_TextBox/button_Submit""))",Chrome 127.0.0.0,,,17-08-2024 16:25:41,17-08-2024 16:25:41,"0,043s",PASSED
+"verifyElementVisible(findTestObject(""Page_TextBox/div_Submit_result""))",Chrome 127.0.0.0,,,17-08-2024 16:25:41,17-08-2024 16:25:41,"0,034s",PASSED
+,,,,,,,
+Test Cases/CheckBox,Chrome 127.0.0.0,,elements,17-08-2024 16:25:41,17-08-2024 16:25:44,"3,380s",PASSED
+"callTestCase(findTestCase(""Elements""), [""baseUrl"":""https://demoqa.com/""], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,17-08-2024 16:25:41,17-08-2024 16:25:44,"2,547s",PASSED
+"click(findTestObject(""Object Repository/Page_CheckBox/span_Check Box""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,055s",PASSED
+"waitForElementVisible(findTestObject(""Page_CheckBox/span_Home_checkbox""), 2)",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,103s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CheckBox/span_Home_checkbox""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,027s",PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_CheckBox/span_Home_checkbox""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,024s",PASSED
+"click(findTestObject(""Object Repository/Page_CheckBox/span_Home_checkbox""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,052s",PASSED
+"waitForElementVisible(findTestObject(""Page_CheckBox/text_Result""), 2)",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,025s",PASSED
+"verifyElementVisible(findTestObject(""Page_CheckBox/text_Result""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,021s",PASSED
+"click(findTestObject(""Page_CheckBox/span_Home_checkbox""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,034s",PASSED
+"verifyElementNotPresent(findTestObject(""Page_CheckBox/text_Result""), 2)",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,058s",PASSED
+"click(findTestObject(""Page_CheckBox/button_Toggle""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,051s",PASSED
+"waitForElementVisible(findTestObject(""Page_CheckBox/span_Desktop""), 2)",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,027s",PASSED
+"verifyElementVisible(findTestObject(""Page_CheckBox/span_Desktop""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,021s",PASSED
+"verifyElementVisible(findTestObject(""Page_CheckBox/span_Documents""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,025s",PASSED
+"verifyElementVisible(findTestObject(""Page_CheckBox/span_Downloads""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,030s",PASSED
+"click(findTestObject(""Page_CheckBox/button_CollapseAll""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,039s",PASSED
+"verifyElementNotPresent(findTestObject(""Page_CheckBox/span_Desktop""), 2)",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,015s",PASSED
+"verifyElementNotPresent(findTestObject(""Page_CheckBox/span_Documents""), 2)",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,015s",PASSED
+"verifyElementNotPresent(findTestObject(""Page_CheckBox/span_Downloads""), 2)",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,020s",PASSED
+"click(findTestObject(""Page_CheckBox/button_ExpandAll""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,041s",PASSED
+"waitForElementVisible(findTestObject(""Page_CheckBox/span_Desktop""), 2)",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,021s",PASSED
+"verifyElementVisible(findTestObject(""Page_CheckBox/span_Desktop""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,020s",PASSED
+"verifyElementVisible(findTestObject(""Page_CheckBox/span_Documents""))",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,020s",PASSED
+"verifyElementVisible(findTestObject(""Page_CheckBox/span_Downloads""), STOP_ON_FAILURE)",Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,019s",PASSED
+,,,,,,,
+Test Cases/Close Browser,Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,130s",PASSED
+closeBrowser(),Chrome 127.0.0.0,,,17-08-2024 16:25:44,17-08-2024 16:25:44,"0,101s",PASSED
