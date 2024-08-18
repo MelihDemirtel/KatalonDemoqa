@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Buttons</name>
+   <tag>elements</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d40f780-d77a-4fed-afe4-4624b6caa3a4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b0df80d7-d492-469a-9971-58a5bc5d2b1c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bfbe2e2c-d275-4b6a-b28e-ea6ede03b03d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1560b694-dfa2-41c4-8a8a-47fa89c5c3cd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'You have done a double click'</defaultValue>
+      <description></description>
+      <id>b0df80d7-d492-469a-9971-58a5bc5d2b1c</id>
+      <masked>false</masked>
+      <name>doubleClickMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>'You have done a right click'</defaultValue>
+      <description></description>
+      <id>bfbe2e2c-d275-4b6a-b28e-ea6ede03b03d</id>
+      <masked>false</masked>
+      <name>RightClickMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>'You have done a dynamic click'</defaultValue>
+      <description></description>
+      <id>1560b694-dfa2-41c4-8a8a-47fa89c5c3cd</id>
+      <masked>false</masked>
+      <name>ClickMeMessage</name>
+   </variable>
+</TestCaseEntity>
