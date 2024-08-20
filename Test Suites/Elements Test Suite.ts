@@ -137,6 +137,25 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>30498fbd-0e36-466e-8ab5-324e9bddec83</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Links</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>722818b6-760a-4698-87d7-1f1555d695ee</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a3c12461-589f-41ec-80dc-b4d8f192bf5e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>d91afa67-73b9-439b-b8e3-161c0822ce06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
