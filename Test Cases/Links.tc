@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Links</name>
+   <tag>elements</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2bd2616-f586-4263-853c-545c94ce1245</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>722818b6-760a-4698-87d7-1f1555d695ee</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3c12461-589f-41ec-80dc-b4d8f192bf5e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demoqa.com/'</defaultValue>
+      <description></description>
+      <id>722818b6-760a-4698-87d7-1f1555d695ee</id>
+      <masked>false</masked>
+      <name>expectedHomeUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://demoqa.com/'</defaultValue>
+      <description></description>
+      <id>a3c12461-589f-41ec-80dc-b4d8f192bf5e</id>
+      <masked>false</masked>
+      <name>expectedDynamicHomeUrl</name>
+   </variable>
+</TestCaseEntity>
