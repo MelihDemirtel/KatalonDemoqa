@@ -47,3 +47,61 @@ WebUI.verifyMatch(dynamicHomeUrl, expectedDynamicHomeUrl, false)
 
 WebUI.closeWindowUrl(dynamicHomeUrl)
 
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('Page_Links/a_Created'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Links/p_Link_response'), 2)
+
+WebUI.verifyElementText(findTestObject('Page_Links/b_Created'), created)
+
+WS.sendRequestAndVerify(findTestObject('Page_Links/Created'))
+
+WebUI.click(findTestObject('Page_Links/a_No_content'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Links/p_Link_response'), 2)
+
+WebUI.verifyElementText(findTestObject('Page_Links/b_No_content'), noContent)
+
+WS.sendRequestAndVerify(findTestObject('Page_Links/No Content'))
+
+WebUI.click(findTestObject('Page_Links/a_Moved'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Links/p_Link_response'), 2)
+
+WebUI.verifyElementText(findTestObject('Page_Links/b_Moved_permanently'), movedPermanently)
+
+WS.sendRequestAndVerify(findTestObject('Page_Links/Moved'))
+
+WebUI.click(findTestObject('Page_Links/a_Bad_request'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Links/p_Link_response'), 2)
+
+WebUI.verifyElementText(findTestObject('Page_Links/b_Bad_request'), badRequest)
+
+WS.sendRequestAndVerify(findTestObject('Page_Links/Bad Request'))
+
+WebUI.click(findTestObject('Page_Links/a_Unauthorized'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Links/p_Link_response'), 2)
+
+WebUI.verifyElementText(findTestObject('Page_Links/b_Unauthorized'), unauthorized)
+
+WS.sendRequestAndVerify(findTestObject('Page_Links/Unauthorized'))
+
+WebUI.click(findTestObject('Page_Links/a_Forbidden'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Links/p_Link_response'), 2)
+
+WebUI.verifyElementText(findTestObject('Page_Links/b_Forbidden'), forbidden)
+
+WS.sendRequestAndVerify(findTestObject('Page_Links/Forbidden'))
+
+WebUI.click(findTestObject('Page_Links/a_Not_found'))
+
+WebUI.waitForElementVisible(findTestObject('Page_Links/p_Link_response'), 2)
+
+WebUI.verifyElementText(findTestObject('Page_Links/a_Not_found'), notFound)
+
+WS.sendRequestAndVerify(findTestObject('Page_Links/Not Found'))
+
