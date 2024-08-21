@@ -198,6 +198,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>f7668180-9801-47ea-b0d2-7d9857e9329e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BrokenLinks</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>10d29739-9f6a-4206-8c34-90e46620e2e3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>d91afa67-73b9-439b-b8e3-161c0822ce06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
