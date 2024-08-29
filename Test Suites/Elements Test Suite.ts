@@ -211,6 +211,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>17d0a6c7-e3f5-46c4-bcf0-d7b9545c8832</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UploadAndDownload</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>d91afa67-73b9-439b-b8e3-161c0822ce06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

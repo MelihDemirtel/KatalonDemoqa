@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UploadAndDownload</name>
+   <tag>elements</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>916cccae-8fa9-4c9e-a861-14bc8b4c6501</testCaseGuid>
+</TestCaseEntity>
